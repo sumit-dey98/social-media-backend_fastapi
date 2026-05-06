@@ -21,7 +21,7 @@ app.add_middleware(
 # apis ================================
 @app.get("/")
 def root(  ):
-    return {"message": "API Running"}
+    return {"message": "API Running on https://social-media-backend-fastapi.onrender.com/. Find the docs at https://social-media-backend-fastapi.onrender.com/docs/"}
 
 # users api ================================
 app.include_router(user.router)
